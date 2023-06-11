@@ -11,13 +11,24 @@
     <title>Número Secreto</title>
 </head>
 <body>
-    <h1>Acerte o número secreto</h1>
-    <h3>O número está entre <span id="menor-valor">0</span> e <span id="maior-valor">100</span>.</h3>
-
-    <div id="chute" class="mensagem">
-        <div>Você disse:</div>
-        <span class="box">20</span>
-        <div><i class="fa-solid fa-up-long fa-beat-fade" style="color: #ffffff;"></i> O número secreto é maior <i class="fa-solid fa-up-long fa-beat-fade" style="color: #ffffff;"></i></div>
+    <div class="menu">
+        <h1 class="titulo">Número Secreto</h1>
+        <input type="button" class="botao-start" id="botao-start">
     </div>
+
+    <main class="game">
+        <h2 class="titulo">Acerte o número secreto</h2>
+        <h3>O número está entre <span id="menor-valor">0</span> e <span id="maior-valor">100</span>.</h3>
+
+        <div id="chute" class="mensagem">
+            <div>Você disse:</div>
+            <span class="box"></span>
+            <div id="message"></div>
+        </div>
+    </main>
+
+    <script src="./scripts/raffleNumber.js"></script>
+    <script src="./scripts/SpeechRecognition.js"></script>
+    <script src="./scripts/numberValidation.js"></script>
 </body>
 </html>
