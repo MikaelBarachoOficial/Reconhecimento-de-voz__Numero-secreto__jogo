@@ -1,6 +1,6 @@
 # Número Secreto - jogo
 
->Status: Em Desenvolvimento.
+>Status: Concluído
 
 ### Nesse projeto será implementado reconhecimento de voz, e aprimorado habilidades com Javascript, HTML e CSS no geral. 
 
@@ -8,6 +8,6 @@
 | ---------------- | ------ |
 | HTML  | Concluído |
 | CSS   | Concluído |
-| Javascript | Em Desenvolvimento. |
-| Reconhecimento de voz | Em Desenvolvimento. |
-| Interação | Em Desenvolvimento. |
+| Javascript | Concluído |
+| Reconhecimento de voz | Concluído |
+| Interação | Concluído |

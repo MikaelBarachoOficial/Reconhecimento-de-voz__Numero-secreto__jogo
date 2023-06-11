@@ -8,8 +8,6 @@
     --bg-color: #1A5F7A;
 }
 
-
-
 .game, .menu {
     background-color: var(--bg-color);
     color: var(--cor-primaria);
@@ -51,6 +49,14 @@ h3 {
     font-size: 2em;
     padding: 0.1em;
     margin: 0.5em 0;
+}
+
+#retry {
+    padding: 1em;
+    font-size: 1rem;
+    border-radius: 5px;
+    margin-top: 5em;
+    cursor: pointer;
 }
 
 @media screen and (min-width: 860px) {

@@ -11,5 +11,3 @@ var secretNumber = raffleNumber()
 function raffleNumber () {
     return Math.floor(Math.random() * maximumValue + 1)
 }
-
-console.log(`Secret Number: ${secretNumber}`)
